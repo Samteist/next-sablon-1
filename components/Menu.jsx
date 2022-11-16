@@ -5,7 +5,7 @@ function Menu() {
     <nav>
       <Link href="/">Anasayfa</Link>
       <Link href="/about">Hakkımda</Link>
-      <Link href="/Contact">İletisim</Link>
+      <Link href="/contact">İletisim</Link>
     </nav>
   );
 }
