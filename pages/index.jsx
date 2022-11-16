@@ -1,11 +1,10 @@
-import Link from "next/link";
+import Menu from "../components/Menu";
 
 function Home() {
   return (
     <div>
+      <Menu />
       <h1>MYO</h1>
-
-      <Link href="/about">Hakkımda</Link>
     </div>
   );
 }

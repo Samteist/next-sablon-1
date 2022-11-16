@@ -1,9 +1,13 @@
 import Link from "next/link";
 
-const Menu = () => {
-  <div>
-    <Link href={/}>AnaSayfa</Link >;
-    <Link href={/contact} >İletisim</Link >;
-    <Link href={/about} >Hakkımda</Link >;
-  </div>
+function Menu() {
+  return (
+    <nav>
+      <Link href="/about">Hakkımda</Link>
+      <Link href="/Contact">İletisim</Link>
+      <Link href="/">Anasayfa</Link>
+    </nav>
+  );
 }
+
+export default Menu;
