@@ -1,10 +1,11 @@
+import Layout from "../components/Layouts";
 import Menu from "../components/Menu";
 
 function Home() {
   return (
-    <div>
+    <Layout>
       <Menu />
-      <h1>MYO 1</h1>
-    </div>
+      <h1>Hakkımda</h1>
+    </Layout>
   );
 }
