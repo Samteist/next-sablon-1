@@ -3,7 +3,7 @@ import Menu from "./Menu";
 function Layout({ children }) {
   return (
     <div>
-      <Menu style={{ flexDirection: "column", margin: 10 }} />
+      <Menu />
       <main>{children}</main>
       <footer>undesigned musa</footer>
     </div>
