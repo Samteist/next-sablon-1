@@ -1,3 +1,5 @@
+import Menu from "./Menu";
+
 function Layout({ children }) {
   return (
     <div>
