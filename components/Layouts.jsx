@@ -5,7 +5,7 @@ function Layout({ children }) {
     <div>
       <Menu />
       <main>{children}</main>
-      <footer>undesigned musa</footer>
+      <footer>Sam@</footer>
     </div>
   );
 }
